@@ -1,0 +1,19 @@
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  background: rgb(36, 39, 52);
+  z-index: 1000;
+  color: rgb(184, 176, 200);
+  border-radius: 100px;
+  border: 1px solid rgb(209, 209, 209);
+  transition: 0.3s;
+}
+
+.back-to-top:hover {
+  background: rgb(184, 176, 200);
+  color: rgb(36, 39, 52);
+}

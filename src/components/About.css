@@ -1,0 +1,217 @@
+.aboutpage {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(42, 45, 58);
+
+  position: relative;
+}
+.about {
+  display: flex;
+}
+.aboutme,
+.details {
+  flex: 50%;
+  height: 550px;
+  padding: 0 50px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  row-gap: 10px;
+}
+
+.details {
+  align-items: center;
+  z-index: 1;
+}
+
+.aboutmetitle {
+  font-size: 60px;
+  font-weight: 700;
+  color: rgb(209, 209, 209);
+  margin: 50px;
+  margin-left: 15%;
+}
+.aboutmebox {
+  position: relative;
+  padding: 100px 70px;
+  color: rgb(209, 209, 209);
+  font-size: 20px;
+  width: 70%;
+  background-color: rgb(36, 39, 52);
+  overflow-y: auto;
+  max-height: 550px;
+}
+.aboutcircle1 {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border-radius: 0 0 150px 0;
+  border-right: 1px solid rgb(184, 176, 200);
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.aboutcircle2 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 0 0 150px 0;
+  border-right: 1px solid rgb(184, 176, 200);
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.aboutcircle3 {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-radius: 0 0 200px 0;
+  border-right: 1px solid rgb(184, 176, 200);
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.aboutcircle4 {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border-radius: 0 150px 0 0;
+  border-right: 1px solid rgb(184, 176, 200);
+  bottom: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.aboutcircle5 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 0 150px 0 0;
+  border-right: 1px solid rgb(184, 176, 200);
+  bottom: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.aboutcircle6 {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-radius: 0 200px 0 0;
+  border-right: 1px solid rgb(184, 176, 200);
+  bottom: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.aboutcircle4hidden,
+.aboutcircle5hidden,
+.aboutcircle6hidden {
+  position: absolute;
+  height: 0px;
+  width: 0px;
+  border-radius: 0 0 150px 0;
+  border-right: 1px solid rgb(184, 176, 200);
+  bottom: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.aboutcircle1hidden,
+.aboutcircle2hidden,
+.aboutcircle3hidden {
+  position: absolute;
+  height: 0px;
+  width: 0px;
+  border-radius: 0 0 150px 0;
+  border-right: 1px solid rgb(184, 176, 200);
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.hidden {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: 1.5s;
+}
+.detsbox {
+  opacity: 1;
+  transform: translateX(0);
+  width: 80%;
+  background-color: rgb(36, 39, 52);
+  color: rgb(209, 209, 209);
+  padding: 29px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  transition: 1 s;
+}
+.detsbox:nth-child(2) {
+  transition-delay: 200ms;
+}
+.detsbox:nth-child(3) {
+  transition-delay: 400ms;
+}
+.detsbox:nth-child(4) {
+  transition-delay: 600ms;
+}
+.detsbox:nth-child(5) {
+  transition-delay: 800ms;
+}
+.aboutbigcircle4 {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border-radius: 150px 0 0 0;
+  border-left: 1px solid rgb(184, 176, 200);
+  bottom: 0;
+  right: 0;
+  transition: 0.5s;
+  z-index: 0;
+}
+.aboutbigcircle5 {
+  position: absolute;
+  height: 225px;
+  width: 225px;
+  border-radius: 225px 0 0 0;
+  border-left: 1px solid rgb(184, 176, 200);
+  bottom: 0;
+  right: 0;
+  transition: 0.5s;
+}
+.aboutbigcircle6 {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  border-radius: 300px 0 0 0;
+  border-left: 1px solid rgb(184, 176, 200);
+  bottom: 0;
+  right: 0;
+  transition: 0.5s;
+  z-index: 0;
+}
+
+.detssubbox {
+  width: 70px;
+  padding: 0px 10px;
+  background-color: rgb(42, 45, 58);
+  height: 40px;
+  text-align: end;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 600;
+}
+@media (max-width: 800px) {
+  .aboutpage {
+    height: fit-content;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .aboutmebox {
+    padding: 60px 20px;
+    width: fit-content;
+  }
+  .detsbox {
+    font-size: 17px;
+  }
+}

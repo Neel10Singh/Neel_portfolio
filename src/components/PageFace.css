@@ -1,0 +1,273 @@
+.pageface {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(36, 39, 52);
+  margin-top: 90px;
+}
+.neelimg {
+  position: absolute;
+  margin-left: 40%;
+  height: 90%;
+  margin-top: 40px;
+  bottom: 0;
+  z-index: 50;
+  transition: 0.5s;
+}
+
+.circle {
+  position: absolute;
+  height: 400px;
+  width: 200px;
+  border-radius: 200px 0 0 200px;
+  border-left: 4px solid rgb(184, 176, 200);
+  bottom: 50px;
+  margin-top: 10px;
+  margin-left: 30%;
+  z-index: 45;
+}
+.circle2 {
+  position: absolute;
+  height: 430px;
+  width: 215px;
+  border-radius: 250px 0 0 250px;
+  border-left: 1px solid rgb(209, 209, 209);
+  bottom: 38px;
+  margin-top: 10px;
+  margin-left: 25%;
+}
+.circle9 {
+  position: absolute;
+  height: 370px;
+  width: 185px;
+  border-radius: 250px 0 0 250px;
+  border-left: 1px solid rgb(209, 209, 209);
+  bottom: 62px;
+  margin-top: 10px;
+  margin-left: 35%;
+}
+.circle8 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 0 0 150px 0;
+  border-right: 1px solid rgb(209, 209, 209);
+  top: 0;
+  left: 0;
+}
+.leftface,
+.rightface {
+  flex: 50%;
+  position: relative;
+  height: 600px;
+}
+.rightfacecont {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  justify-content: start;
+}
+.myname {
+  font-size: 70px;
+  font-weight: 700;
+  color: rgb(209, 209, 209);
+}
+.mydesc {
+  font-size: 28px;
+  font-weight: 500;
+  color: rgb(184, 176, 200);
+}
+.Getresume {
+  height: 80px;
+  width: 170px;
+  border-radius: 50px;
+  font-size: 20px;
+  background-color: transparent;
+  color: rgb(184, 176, 200);
+  border: 2px solid rgb(42, 45, 58);
+  font-family: 'Rubik', sans-serif;
+  transition: 0.5s;
+}
+.Getresume:hover {
+  background-color: rgb(42, 45, 58);
+}
+.circle3 {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  border-radius: 350px 0 0 0;
+  border-left: 1px solid rgb(184, 176, 200);
+  bottom: 0;
+  right: 0;
+}
+.circle4 {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  border-radius: 300px 0 0 0;
+  border-left: 1px solid rgb(184, 176, 200);
+  bottom: 0;
+  right: 0;
+}
+.circle7 {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border-radius: 300px 0 0 0;
+  border-left: 1px solid rgb(184, 176, 200);
+  bottom: 0;
+  right: 0;
+}
+.circle5 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 0 0 150px 0;
+  border-right: 1px solid rgb(209, 209, 209);
+  top: 0;
+  left: 0;
+}
+.circle6 {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border-radius: 0 0 150px 0;
+  border-right: 1px solid rgb(209, 209, 209);
+  top: 0;
+  left: 0;
+}
+.linkedin {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: 2px solid rgb(209, 209, 209);
+  color: white;
+  background-color: rgb(36, 39, 52);
+  position: absolute;
+  left: 29%;
+  bottom: 48%;
+  transition: 0.3s;
+  z-index: 60;
+}
+.instagra {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: 2px solid rgb(209, 209, 209);
+  color: white;
+  background-color: rgb(36, 39, 52);
+  position: absolute;
+  left: 34%;
+  bottom: 59%;
+  transition: 0.3s;
+  z-index: 60;
+}
+.leetcode {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: 2px solid rgb(209, 209, 209);
+  color: white;
+  background-color: rgb(36, 39, 52);
+  position: absolute;
+  left: 28%;
+  bottom: 37%;
+  transition: 0.3s;
+  z-index: 60;
+}
+.codeforces {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: 2px solid rgb(209, 209, 209);
+  color: white;
+  background-color: rgb(36, 39, 52);
+  position: absolute;
+  left: 30%;
+  bottom: 26%;
+  transition: 0.3s;
+  z-index: 60;
+}
+.github {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: 2px solid rgb(209, 209, 209);
+  color: white;
+  background-color: rgb(36, 39, 52);
+  position: absolute;
+  left: 35%;
+  bottom: 17%;
+  transition: 0.3s;
+  z-index: 60;
+}
+.leetcodeicon,
+.codeforcesicon {
+  height: 25px;
+  width: 25px;
+}
+.githubicon {
+  margin-top: 3px;
+  height: 28px;
+  width: 28px;
+}
+.lin,
+.ins {
+  font-size: 23px;
+}
+.linkedin:hover,
+.instagra:hover,
+.leetcode:hover,
+.codeforces:hover,
+.github:hover {
+  transform: scale(1.2);
+}
+@media (max-width: 800px) {
+  .pageface {
+    flex-direction: column;
+    height: 1000px;
+  }
+  .circle {
+    bottom: 30px;
+    height: 350px;
+    width: 175px;
+    margin-left: 15%;
+  }
+  .circle2 {
+    display: none;
+  }
+  .circle9 {
+    display: none;
+  }
+  .neelimg {
+    margin-left: 25%;
+  }
+  .rightfacecont {
+    top: 10%;
+  }
+  .linkedin {
+    left: 20%;
+    bottom: 57%;
+  }
+  .instagra {
+    left: 31%;
+    bottom: 65%;
+  }
+  .leetcode {
+    left: 13%;
+    bottom: 46%;
+  }
+  .codeforces {
+    left: 12%;
+    bottom: 33%;
+  }
+  .github {
+    left: 15%;
+    bottom: 22%;
+  }
+  .leftface {
+    border-bottom: 1px solid rgb(184, 176, 200);
+  }
+}

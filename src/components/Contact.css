@@ -95,6 +95,7 @@
   font-size: 20px;
   transition: 0.5s;
   text-decoration: none;
+  z-index: 1000;
 }
 .contactbut:hover {
   background-color: rgb(184, 176, 200);

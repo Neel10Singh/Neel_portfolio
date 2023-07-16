@@ -36,9 +36,9 @@ function Contact() {
       <div className='contactcircle6' />
       <div className='clickcontacts'>
         <div className='contactblock'>
-          <button className='contactbut'>
+          <a href='tel:9105856554' className='contactbut'>
             <i className='fa fa-phone'></i>
-          </button>
+          </a>
           <span className='contactdet'>9105856554</span>
         </div>
         <div className='contactblock'>

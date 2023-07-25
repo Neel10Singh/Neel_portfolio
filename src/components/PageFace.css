@@ -238,6 +238,9 @@
     flex-direction: column;
     height: 1000px;
   }
+  .backanimation {
+    height: 50%;
+  }
   .circle {
     bottom: 30px;
     height: 350px;

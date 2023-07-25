@@ -1,7 +1,9 @@
 import React, { useState, useRef } from 'react'
 import emailjs from '@emailjs/browser'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import './Contact.css'
-
+AOS.init()
 function Contact() {
   const form = useRef()
   const handlesubmit = (e) => {
@@ -34,7 +36,17 @@ function Contact() {
       <div className='contactcircle4' />
       <div className='contactcircle5' />
       <div className='contactcircle6' />
-      <div className='clickcontacts'>
+      <div
+        className='clickcontacts'
+        data-aos='slide-down'
+        data-aos-offset='-100'
+        data-aos-delay='100'
+        data-aos-duration='1000'
+        data-aos-easing='ease-in-out'
+        data-aos-mirror='true'
+        // data-aos-once='true'
+        data-aos-anchor-placement='center'
+      >
         <div className='contactblock'>
           <a href='tel:9105856554' className='contactbut'>
             <i className='fa fa-phone'></i>

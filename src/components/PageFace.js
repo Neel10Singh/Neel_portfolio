@@ -7,11 +7,16 @@ import codeforces from '../images/codeforces.png'
 import github from '../images/github.jpg'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Lottie from 'lottie-react'
+import backanim from '../images/back.json'
 AOS.init()
 
 function PageFace() {
   return (
     <div className='pageface'>
+      <div>
+        <Lottie animationData={backanim} className='backanimation'></Lottie>
+      </div>
       <div className='leftface'>
         <img
           src={neelimg}

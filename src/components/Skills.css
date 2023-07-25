@@ -1,5 +1,5 @@
 .skillspage {
-  height: 700px;
+  height: fit-content;
   background-color: rgb(36, 39, 52);
   display: flex;
   position: relative;
@@ -44,6 +44,10 @@
   margin-top: -40px;
   margin-left: 15%;
 }
+.skillbigbox {
+  display: flex;
+  justify-content: space-evenly;
+}
 .skillbox {
   display: flex;
   flex-direction: column;
@@ -53,8 +57,10 @@
   padding: 50px 50px;
   /* justify-content: center; */
   align-items: center;
-  height: 500px;
+  width: 500px;
+  height: fit-content;
   z-index: 1;
+  padding-bottom: 60px;
 }
 .hiddensk {
   opacity: 0;
@@ -63,7 +69,7 @@
 .eachskill {
   opacity: 1;
   transform: translateX(0);
-  width: 30%;
+  width: 80%;
   background-color: rgb(42, 45, 58);
   color: rgb(209, 209, 209);
   padding: 15px 25px;
@@ -174,9 +180,21 @@
   width: 85%;
   font-size: 15px;
 }
+.fb {
+  width: 60%;
+  font-size: 15px;
+}
+.redux {
+  width: 90%;
+  font-size: 15px;
+}
 @media (max-width: 800px) {
+  .skillbigbox {
+    flex-direction: column;
+  }
   .skillbox {
     height: fit-content;
+    width: 75%;
   }
   .skillspage {
     height: fit-content;

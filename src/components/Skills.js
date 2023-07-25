@@ -24,6 +24,8 @@ function Skills() {
   const skillRef8 = useRef(null)
   const skillRef9 = useRef(null)
   const skillRef10 = useRef(null)
+  const skillRef11 = useRef(null)
+  const skillRef12 = useRef(null)
   useEffect(() => {
     const observer = new IntersectionObserver(callbackfuntion, options)
     if (skillRef.current) observer.observe(skillRef.current)
@@ -36,6 +38,8 @@ function Skills() {
     if (skillRef8.current) observer.observe(skillRef8.current)
     if (skillRef9.current) observer.observe(skillRef9.current)
     if (skillRef10.current) observer.observe(skillRef10.current)
+    if (skillRef11.current) observer.observe(skillRef11.current)
+    if (skillRef12.current) observer.observe(skillRef12.current)
   }, [
     skillRef,
     skillRef2,
@@ -47,6 +51,8 @@ function Skills() {
     skillRef8,
     skillRef9,
     skillRef10,
+    skillRef11,
+    skillRef12,
     options,
   ])
   function showstat(id) {
@@ -61,124 +67,152 @@ function Skills() {
       <div className='skillsbigcircle6' />
       <p className='aboutmetitle'>Skillset</p>
       <p className='aboutmesubtitle'>|| Hover to display:</p>
-      <div className='skillbox'>
-        <div
-          className='hiddensk'
-          onMouseEnter={() => showstat('html')}
-          ref={skillRef}
-        >
-          <div className='skillname'>HTML</div>
-          <div className='skillstat'>
-            <div className='skillstatdata ' id='html'>
-              <span className='skillsdatashow'>90%</span>
+      <div className='skillbigbox'>
+        <div className='skillbox'>
+          <div
+            className='hiddensk'
+            onMouseEnter={() => showstat('html')}
+            ref={skillRef}
+          >
+            <div className='skillname'>HTML</div>
+            <div className='skillstat'>
+              <div className='skillstatdata ' id='html'>
+                <span className='skillsdatashow'>90%</span>
+              </div>
+            </div>
+          </div>
+          <div
+            className='hiddensk'
+            onMouseEnter={() => showstat('css')}
+            ref={skillRef2}
+          >
+            <div className='skillname'>CSS</div>
+            <div className='skillstat'>
+              <div className='skillstatdata ' id='css'>
+                <span className='skillsdatashow'>90%</span>
+              </div>
+            </div>
+          </div>
+          <div
+            className='hiddensk'
+            onMouseEnter={() => showstat('js')}
+            ref={skillRef3}
+          >
+            <div className='skillname'>JS</div>
+            <div className='skillstat'>
+              <div className='skillstatdata ' id='js'>
+                <span className='skillsdatashow'>80%</span>
+              </div>
+            </div>
+          </div>
+          <div
+            className='hiddensk'
+            onMouseEnter={() => showstat('react')}
+            ref={skillRef4}
+          >
+            <div className='skillname'>React</div>
+            <div className='skillstat'>
+              <div className='skillstatdata ' id='react'>
+                <span className='skillsdatashow'>75%</span>
+              </div>
+            </div>
+          </div>
+          <div
+            className='hiddensk'
+            onMouseEnter={() => showstat('bs')}
+            ref={skillRef5}
+          >
+            <div className='skillname'>Booststrap</div>
+            <div className='skillstat'>
+              <div className='skillstatdata ' id='bs'>
+                <span className='skillsdatashow'>60%</span>
+              </div>
+            </div>
+          </div>
+          <div
+            className='hiddensk'
+            onMouseEnter={() => showstat('dsa')}
+            ref={skillRef6}
+          >
+            <div className='skillname'>DSA</div>
+            <div className='skillstat'>
+              <div className='skillstatdata ' id='dsa'>
+                <span className='skillsdatashow'>90%</span>
+              </div>
             </div>
           </div>
         </div>
-        <div
-          className='hiddensk'
-          onMouseEnter={() => showstat('css')}
-          ref={skillRef2}
-        >
-          <div className='skillname'>CSS</div>
-          <div className='skillstat'>
-            <div className='skillstatdata ' id='css'>
-              <span className='skillsdatashow'>90%</span>
+        <div className='skillbox'>
+          <div
+            className='hiddensk'
+            onMouseEnter={() => showstat('django')}
+            ref={skillRef7}
+          >
+            <div className='skillname'>Django</div>
+            <div className='skillstat'>
+              <div className='skillstatdata ' id='django'>
+                <span className='skillsdatashow'>20%</span>
+              </div>
             </div>
           </div>
-        </div>
-        <div
-          className='hiddensk'
-          onMouseEnter={() => showstat('js')}
-          ref={skillRef3}
-        >
-          <div className='skillname'>JS</div>
-          <div className='skillstat'>
-            <div className='skillstatdata ' id='js'>
-              <span className='skillsdatashow'>80%</span>
+          <div
+            className='hiddensk'
+            onMouseEnter={() => showstat('sql')}
+            ref={skillRef8}
+          >
+            <div className='skillname'>SQL</div>
+            <div className='skillstat'>
+              <div className='skillstatdata ' id='sql'>
+                <span className='skillsdatashow'>70%</span>
+              </div>
             </div>
           </div>
-        </div>
-        <div
-          className='hiddensk'
-          onMouseEnter={() => showstat('react')}
-          ref={skillRef4}
-        >
-          <div className='skillname'>React</div>
-          <div className='skillstat'>
-            <div className='skillstatdata ' id='react'>
-              <span className='skillsdatashow'>75%</span>
+          <div
+            className='hiddensk'
+            onMouseEnter={() => showstat('python')}
+            ref={skillRef9}
+          >
+            <div className='skillname'>Python</div>
+            <div className='skillstat'>
+              <div className='skillstatdata ' id='python'>
+                <span className='skillsdatashow'>70%</span>
+              </div>
             </div>
           </div>
-        </div>
-        <div
-          className='hiddensk'
-          onMouseEnter={() => showstat('bs')}
-          ref={skillRef5}
-        >
-          <div className='skillname'>Booststrap</div>
-          <div className='skillstat'>
-            <div className='skillstatdata ' id='bs'>
-              <span className='skillsdatashow'>60%</span>
+          <div
+            className='hiddensk'
+            onMouseEnter={() => showstat('cpp')}
+            ref={skillRef10}
+          >
+            <div className='skillname'>C++</div>
+            <div className='skillstat'>
+              <div className='skillstatdata ' id='cpp'>
+                <span className='skillsdatashow'>85%</span>
+              </div>
             </div>
           </div>
-        </div>
-        <div
-          className='hiddensk'
-          onMouseEnter={() => showstat('dsa')}
-          ref={skillRef6}
-        >
-          <div className='skillname'>DSA</div>
-          <div className='skillstat'>
-            <div className='skillstatdata ' id='dsa'>
-              <span className='skillsdatashow'>90%</span>
+          <div
+            className='hiddensk'
+            onMouseEnter={() => showstat('fb')}
+            ref={skillRef11}
+          >
+            <div className='skillname'>Firebase</div>
+            <div className='skillstat'>
+              <div className='skillstatdata ' id='fb'>
+                <span className='skillsdatashow'>60%</span>
+              </div>
             </div>
           </div>
-        </div>
-        <div
-          className='hiddensk'
-          onMouseEnter={() => showstat('django')}
-          ref={skillRef7}
-        >
-          <div className='skillname'>Django</div>
-          <div className='skillstat'>
-            <div className='skillstatdata ' id='django'>
-              <span className='skillsdatashow'>20%</span>
-            </div>
-          </div>
-        </div>
-        <div
-          className='hiddensk'
-          onMouseEnter={() => showstat('sql')}
-          ref={skillRef8}
-        >
-          <div className='skillname'>SQL</div>
-          <div className='skillstat'>
-            <div className='skillstatdata ' id='sql'>
-              <span className='skillsdatashow'>70%</span>
-            </div>
-          </div>
-        </div>
-        <div
-          className='hiddensk'
-          onMouseEnter={() => showstat('python')}
-          ref={skillRef9}
-        >
-          <div className='skillname'>Python</div>
-          <div className='skillstat'>
-            <div className='skillstatdata ' id='python'>
-              <span className='skillsdatashow'>70%</span>
-            </div>
-          </div>
-        </div>
-        <div
-          className='hiddensk'
-          onMouseEnter={() => showstat('cpp')}
-          ref={skillRef10}
-        >
-          <div className='skillname'>C++</div>
-          <div className='skillstat'>
-            <div className='skillstatdata ' id='cpp'>
-              <span className='skillsdatashow'>85%</span>
+          <div
+            className='hiddensk'
+            onMouseEnter={() => showstat('redux')}
+            ref={skillRef12}
+          >
+            <div className='skillname'>Redux</div>
+            <div className='skillstat'>
+              <div className='skillstatdata ' id='redux'>
+                <span className='skillsdatashow'>90%</span>
+              </div>
             </div>
           </div>
         </div>

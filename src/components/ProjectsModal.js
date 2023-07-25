@@ -47,9 +47,15 @@ function ProjectsModal({ projmodal, setModalOpen, modalopen }) {
         </button>
         <button
           className='openproject'
-          onClick={() => window.open(projmodal.link)}
+          onClick={() => window.open(projmodal.link1)}
         >
-          View Project
+          View Live
+        </button>
+        <button
+          className='opencode'
+          onClick={() => window.open(projmodal.link2)}
+        >
+          View Code
         </button>
       </div>
     </div>

@@ -76,7 +76,8 @@
   text-align: center;
 }
 .closemodal,
-.openproject {
+.openproject,
+.opencode {
   position: absolute;
   bottom: 10px;
   height: 50px;
@@ -89,7 +90,8 @@
   transition: 0.5s;
 }
 .openproject:hover,
-.closemodal:hover {
+.closemodal:hover,
+.opencode:hover {
   background-color: rgb(42, 45, 58);
 }
 .closemodal {
@@ -97,6 +99,9 @@
 }
 .openproject {
   right: 200px;
+}
+.opencode {
+  right: 600px;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -133,9 +138,17 @@
     padding: 30px 20px;
   }
   .openproject {
-    right: 50px;
+    right: 30px;
   }
   .closemodal {
-    right: 160px;
+    right: 120px;
+  }
+  .opencode {
+    right: 210px;
+  }
+  .closemodal,
+  .openproject,
+  .opencode {
+    width: 80px;
   }
 }

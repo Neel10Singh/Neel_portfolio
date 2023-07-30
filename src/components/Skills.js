@@ -4,7 +4,7 @@ import './Skills.css'
 const callbackfuntion = (entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
-      entry.target.classList.add('eachskill')
+      entry.target.classList.add(entry.target.id)
     }
   })
 }
@@ -69,148 +69,100 @@ function Skills() {
       <p className='aboutmesubtitle'>|| Hover to display:</p>
       <div className='skillbigbox'>
         <div className='skillbox'>
-          <div
-            className='hiddensk'
-            onMouseEnter={() => showstat('html')}
-            ref={skillRef}
-          >
+          <div className='eachskill'>
             <div className='skillname'>HTML</div>
             <div className='skillstat'>
-              <div className='skillstatdata ' id='html'>
+              <div className='skillstatdata ' id='html' ref={skillRef}>
                 <span className='skillsdatashow'>90%</span>
               </div>
             </div>
           </div>
-          <div
-            className='hiddensk'
-            onMouseEnter={() => showstat('css')}
-            ref={skillRef2}
-          >
+          <div className='eachskill'>
             <div className='skillname'>CSS</div>
             <div className='skillstat'>
-              <div className='skillstatdata ' id='css'>
+              <div className='skillstatdata ' id='css' ref={skillRef2}>
                 <span className='skillsdatashow'>90%</span>
               </div>
             </div>
           </div>
-          <div
-            className='hiddensk'
-            onMouseEnter={() => showstat('js')}
-            ref={skillRef3}
-          >
+          <div className='eachskill'>
             <div className='skillname'>JS</div>
             <div className='skillstat'>
-              <div className='skillstatdata ' id='js'>
+              <div className='skillstatdata ' id='js' ref={skillRef3}>
                 <span className='skillsdatashow'>80%</span>
               </div>
             </div>
           </div>
-          <div
-            className='hiddensk'
-            onMouseEnter={() => showstat('react')}
-            ref={skillRef4}
-          >
+          <div className='eachskill'>
             <div className='skillname'>React</div>
             <div className='skillstat'>
-              <div className='skillstatdata ' id='react'>
+              <div className='skillstatdata ' id='react' ref={skillRef4}>
                 <span className='skillsdatashow'>75%</span>
               </div>
             </div>
           </div>
-          <div
-            className='hiddensk'
-            onMouseEnter={() => showstat('bs')}
-            ref={skillRef5}
-          >
+          <div className='eachskill'>
             <div className='skillname'>Booststrap</div>
             <div className='skillstat'>
-              <div className='skillstatdata ' id='bs'>
+              <div className='skillstatdata ' id='bs' ref={skillRef5}>
                 <span className='skillsdatashow'>60%</span>
               </div>
             </div>
           </div>
-          <div
-            className='hiddensk'
-            onMouseEnter={() => showstat('dsa')}
-            ref={skillRef6}
-          >
+          <div className='eachskill'>
             <div className='skillname'>DSA</div>
             <div className='skillstat'>
-              <div className='skillstatdata ' id='dsa'>
+              <div className='skillstatdata ' id='dsa' ref={skillRef6}>
                 <span className='skillsdatashow'>90%</span>
               </div>
             </div>
           </div>
         </div>
         <div className='skillbox'>
-          <div
-            className='hiddensk'
-            onMouseEnter={() => showstat('django')}
-            ref={skillRef7}
-          >
+          <div className='eachskill'>
             <div className='skillname'>Django</div>
             <div className='skillstat'>
-              <div className='skillstatdata ' id='django'>
+              <div className='skillstatdata ' id='django' ref={skillRef7}>
                 <span className='skillsdatashow'>20%</span>
               </div>
             </div>
           </div>
-          <div
-            className='hiddensk'
-            onMouseEnter={() => showstat('sql')}
-            ref={skillRef8}
-          >
+          <div className='eachskill'>
             <div className='skillname'>SQL</div>
             <div className='skillstat'>
-              <div className='skillstatdata ' id='sql'>
+              <div className='skillstatdata ' id='sql' ref={skillRef8}>
                 <span className='skillsdatashow'>70%</span>
               </div>
             </div>
           </div>
-          <div
-            className='hiddensk'
-            onMouseEnter={() => showstat('python')}
-            ref={skillRef9}
-          >
+          <div className='eachskill'>
             <div className='skillname'>Python</div>
             <div className='skillstat'>
-              <div className='skillstatdata ' id='python'>
+              <div className='skillstatdata ' id='python' ref={skillRef9}>
                 <span className='skillsdatashow'>70%</span>
               </div>
             </div>
           </div>
-          <div
-            className='hiddensk'
-            onMouseEnter={() => showstat('cpp')}
-            ref={skillRef10}
-          >
+          <div className='eachskill'>
             <div className='skillname'>C++</div>
             <div className='skillstat'>
-              <div className='skillstatdata ' id='cpp'>
+              <div className='skillstatdata ' id='cpp' ref={skillRef10}>
                 <span className='skillsdatashow'>85%</span>
               </div>
             </div>
           </div>
-          <div
-            className='hiddensk'
-            onMouseEnter={() => showstat('fb')}
-            ref={skillRef11}
-          >
+          <div className='eachskill'>
             <div className='skillname'>Firebase</div>
             <div className='skillstat'>
-              <div className='skillstatdata ' id='fb'>
+              <div className='skillstatdata ' id='fb' ref={skillRef11}>
                 <span className='skillsdatashow'>60%</span>
               </div>
             </div>
           </div>
-          <div
-            className='hiddensk'
-            onMouseEnter={() => showstat('redux')}
-            ref={skillRef12}
-          >
+          <div className='eachskill'>
             <div className='skillname'>Redux</div>
             <div className='skillstat'>
-              <div className='skillstatdata ' id='redux'>
+              <div className='skillstatdata ' id='redux' ref={skillRef12}>
                 <span className='skillsdatashow'>90%</span>
               </div>
             </div>

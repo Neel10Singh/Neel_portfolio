@@ -36,6 +36,7 @@ function Contact() {
       <div className='contactcircle4' />
       <div className='contactcircle5' />
       <div className='contactcircle6' />
+      <p className='aboutmetitle'>Contact Me</p>
       <div
         className='clickcontacts'
         data-aos='slide-down'
@@ -80,36 +81,38 @@ function Contact() {
           </button>
         </div>
       </div>
-      <form className='contactform' ref={form} onSubmit={handlesubmit}>
-        <div className='toprow'>
+      <div className='contactlower'>
+        <form className='contactform' ref={form} onSubmit={handlesubmit}>
+          <div className='toprow'>
+            <input
+              type='text'
+              placeholder='Name'
+              className='inputfield'
+              name='from_name'
+            />
+            <input
+              type='text'
+              placeholder='Contact No.'
+              className='inputfield'
+              name='contact_number'
+            />
+          </div>
           <input
             type='text'
-            placeholder='Name'
-            className='inputfield'
-            name='from_name'
+            placeholder='Email id'
+            className='inputfield2'
+            name='email_id'
           />
-          <input
-            type='text'
-            placeholder='Contact No.'
-            className='inputfield'
-            name='contact_number'
+          <textarea
+            placeholder='Message'
+            className='inputfield3'
+            name='message'
           />
-        </div>
-        <input
-          type='text'
-          placeholder='Email id'
-          className='inputfield2'
-          name='email_id'
-        />
-        <textarea
-          placeholder='Message'
-          className='inputfield3'
-          name='message'
-        />
-        <button type='submit' value='Send' className='formsubmit'>
-          Submit Message
-        </button>
-      </form>
+          <button type='submit' value='Send' className='formsubmit'>
+            Submit Message
+          </button>
+        </form>
+      </div>
     </div>
   )
 }

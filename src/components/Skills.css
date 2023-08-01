@@ -191,9 +191,14 @@
 @media (max-width: 800px) {
   .skillbigbox {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
   }
   .skillbox {
     height: fit-content;
+    padding-top: 0px;
+    padding-bottom: 0px;
     width: 75%;
   }
   .skillspage {

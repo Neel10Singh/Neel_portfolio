@@ -66,7 +66,6 @@ function Skills() {
       <div className='skillsbigcircle5' />
       <div className='skillsbigcircle6' />
       <p className='aboutmetitle'>Skillset</p>
-      <p className='aboutmesubtitle'>|| Hover to display:</p>
       <div className='skillbigbox'>
         <div className='skillbox'>
           <div className='eachskill'>

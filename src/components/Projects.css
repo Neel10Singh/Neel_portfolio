@@ -73,7 +73,7 @@
 .projectdisplay {
   background-color: rgb(36, 39, 52);
   height: 500px;
-  width: 600px;
+  width: 750px;
   overflow: hidden;
   z-index: 1;
   display: flex;
@@ -95,7 +95,7 @@
   display: flex inline;
   flex-direction: column;
   height: 500px;
-  width: 600px;
+  width: 750px;
   position: relative;
   overflow: hidden;
   justify-content: center;
@@ -104,7 +104,7 @@
 }
 .im {
   height: 400px;
-  width: 500px;
+  width: 680px;
   margin-top: 20px;
   /* object-fit: contain; */
   /* z-index: 2; */

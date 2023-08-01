@@ -169,6 +169,11 @@
 .formsubmit:hover {
   background-color: rgb(42, 45, 58);
 }
+@media (min-width: 800px) and (max-width: 1050px) {
+  .clickcontacts {
+    transform: scale(0.7) !important;
+  }
+}
 
 @media (max-width: 800px) {
   .contactcircle1,

@@ -4,6 +4,8 @@ import healyou from '../images/HealYou.png'
 import healyouphone from '../images/HealYouphone.png'
 import Resme from '../images/ResMe.png'
 import resmephone from '../images/ResMephone.png'
+import ourspace from '../images/ourspace.png'
+import ourspacephone from '../images/ourspacephone.png'
 export const projectdets = [
   {
     id: 0,
@@ -38,6 +40,21 @@ export const projectdets = [
   },
   {
     id: 2,
+    name: 'OurSpace',
+    startdate: '24/07/2023',
+    duration: '5 days',
+    TechStack: ['React', 'Redux, FireBase'],
+    shortdesc: 'A blogging website',
+    im: ourspace,
+    backim: ourspacephone,
+    desc: 'Blogs are a fun way of connecting with the world and sharing your ideas and thoughts while also reading blogs from a bunch of more prople. This website intends to provide this experience. Whether you just want to share updates with your family and friends or you want to start a blog and build a broader audience, you can do it all.',
+    usage:
+      'You can create your own blog with tags and photo, post it on the website, read all othe blogs, filter them out based on the topic you want to read about, like and comment on blogs, and also edit or delete your own blogs.',
+    link1: 'https://our-space-neel.netlify.app/',
+    link2: 'https://github.com/Neel10Singh/codealpha-bloggingwebsite',
+  },
+  {
+    id: 3,
     name: 'ResMe',
     startdate: '16/07/2023',
     duration: '5 days',

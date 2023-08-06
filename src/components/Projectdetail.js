@@ -43,7 +43,7 @@ export const projectdets = [
     name: 'OurSpace',
     startdate: '24/07/2023',
     duration: '5 days',
-    TechStack: ['React', 'Redux, FireBase'],
+    TechStack: ['React', 'Redux', 'FireBase'],
     shortdesc: 'A blogging website',
     im: ourspace,
     backim: ourspacephone,

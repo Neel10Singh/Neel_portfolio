@@ -18,7 +18,7 @@ function ProjectsModal({ projmodal, setModalOpen, modalopen }) {
           <p className='descriptionmodal'>{projmodal.usage}</p>
         </div>
         <div className='modaldesc'>
-          <p style={{ fontSize: '30px', fontWeight: '600' }}>
+          <p style={{ fontSize: '25px', fontWeight: '600' }}>
             {projmodal.name}
           </p>
           <p>

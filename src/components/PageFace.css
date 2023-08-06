@@ -98,6 +98,7 @@
   border: 2px solid rgb(42, 45, 58);
   font-family: 'Rubik', sans-serif;
   transition: 0.5s;
+  z-index: 10;
 }
 .Getresume:hover {
   background-color: rgb(42, 45, 58);

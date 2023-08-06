@@ -112,7 +112,7 @@ function PageFace() {
             className='Getresume'
             onClick={() => {
               window.open(
-                'https://drive.google.com/file/d/12q79hxXlLQ1WPgalLdMoto4OpoIJCv61/view?usp=sharing'
+                'https://drive.google.com/file/d/1IYHThTVf2EQiFnHkdCmyp3ZTyuM5XTbg/view?usp=sharing'
               )
             }}
             data-aos='fade-right'

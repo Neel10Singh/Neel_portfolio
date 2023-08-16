@@ -96,34 +96,36 @@ function About() {
             <div className='aboutcircle5hidden' id='ac5' />
             <div className='aboutcircle6hidden' id='ac6' />
             I am Neelaksh Singh, currently persuing my B.Tech. from Institute of
-            Engineering and Rural Technology, Prayagraj. I am in my 3rd year of
-            graduation and have an avaerage SGPA of 8.18 in my 5 semsters. I
-            have a high interest in fornt-end devlopment. My skill set includes
-            React, HTML, CSS, JavaScript, Bootstrap, C++, Pyhton, SQL, basic of
-            Django and MATLAB. I am fluent with my Data Structures and
-            Algorithms and also love to solve Competitive Programing Problems. I
-            am a skilled individual who always aims to learn and grow. I am a
-            good leader and great at teamwork and always willing to give my
-            hundred percent.
+            Engineering and Rural Technology, Prayagraj. I am in my 4th year of
+            graduation and have an average SGPA of 8.18 in my 5 semesters. I
+            have a high interest in front-end devlopment. I am a skilled
+            individual who always aims to learn and grow. I specialize in
+            front-end development using React and also know basics of Django for
+            back-end development. I am a good leader and great at teamwork and
+            always willing to give my hundred percent. I am quick learner who
+            always aims to learn more and adapt to all kinds of situations.
+            Another strength of mine is perseverance. I dont give up even when
+            stuck in a problem and works through it no matter how much work it
+            takes.
             <br /> Thank You.
           </div>
         </div>
         <div className='details'>
           <div className='hidden' ref={containerRef}>
             Number of projects
-            <div className='detssubbox '>2</div>
+            <div className='detssubbox '>4</div>
           </div>
           <div className='hidden' ref={containerRef2}>
             LeetCode Rating:
-            <div className='detssubbox'>1573</div>
+            <div className='detssubbox'>1596</div>
           </div>
           <div className='hidden' ref={containerRef3}>
             LeetCode Questions:
-            <div className='detssubbox'>232</div>
+            <div className='detssubbox'>250+</div>
           </div>
           <div className='hidden' ref={containerRef4}>
             Codeforces Rating:
-            <div className='detssubbox'>1219</div>
+            <div className='detssubbox'>1249</div>
           </div>
           <div className='hidden' ref={containerRef5}>
             CodeChef Rating:

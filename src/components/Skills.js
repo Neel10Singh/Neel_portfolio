@@ -26,6 +26,8 @@ function Skills() {
   const skillRef10 = useRef(null)
   const skillRef11 = useRef(null)
   const skillRef12 = useRef(null)
+  const skillRef13 = useRef(null)
+  const skillRef14 = useRef(null)
   useEffect(() => {
     const observer = new IntersectionObserver(callbackfuntion, options)
     if (skillRef.current) observer.observe(skillRef.current)
@@ -40,6 +42,8 @@ function Skills() {
     if (skillRef10.current) observer.observe(skillRef10.current)
     if (skillRef11.current) observer.observe(skillRef11.current)
     if (skillRef12.current) observer.observe(skillRef12.current)
+    if (skillRef13.current) observer.observe(skillRef13.current)
+    if (skillRef14.current) observer.observe(skillRef14.current)
   }, [
     skillRef,
     skillRef2,
@@ -53,6 +57,8 @@ function Skills() {
     skillRef10,
     skillRef11,
     skillRef12,
+    skillRef13,
+    skillRef14,
     options,
   ])
   function showstat(id) {
@@ -101,17 +107,25 @@ function Skills() {
             </div>
           </div>
           <div className='eachskill'>
-            <div className='skillname'>Booststrap</div>
+            <div className='skillname'>Tailwind</div>
             <div className='skillstat'>
-              <div className='skillstatdata ' id='bs' ref={skillRef5}>
+              <div className='skillstatdata ' id='tw' ref={skillRef5}>
+                <span className='skillsdatashow'>70%</span>
+              </div>
+            </div>
+          </div>
+          <div className='eachskill'>
+            <div className='skillname'>Firebase</div>
+            <div className='skillstat'>
+              <div className='skillstatdata ' id='fb' ref={skillRef6}>
                 <span className='skillsdatashow'>60%</span>
               </div>
             </div>
           </div>
           <div className='eachskill'>
-            <div className='skillname'>DSA</div>
+            <div className='skillname'>SASS</div>
             <div className='skillstat'>
-              <div className='skillstatdata ' id='dsa' ref={skillRef6}>
+              <div className='skillstatdata ' id='sass' ref={skillRef13}>
                 <span className='skillsdatashow'>90%</span>
               </div>
             </div>
@@ -151,10 +165,10 @@ function Skills() {
             </div>
           </div>
           <div className='eachskill'>
-            <div className='skillname'>Firebase</div>
+            <div className='skillname'>DSA</div>
             <div className='skillstat'>
-              <div className='skillstatdata ' id='fb' ref={skillRef11}>
-                <span className='skillsdatashow'>60%</span>
+              <div className='skillstatdata ' id='dsa' ref={skillRef11}>
+                <span className='skillsdatashow'>90%</span>
               </div>
             </div>
           </div>
@@ -163,6 +177,14 @@ function Skills() {
             <div className='skillstat'>
               <div className='skillstatdata ' id='redux' ref={skillRef12}>
                 <span className='skillsdatashow'>90%</span>
+              </div>
+            </div>
+          </div>
+          <div className='eachskill'>
+            <div className='skillname'>Git</div>
+            <div className='skillstat'>
+              <div className='skillstatdata ' id='git' ref={skillRef14}>
+                <span className='skillsdatashow'>50%</span>
               </div>
             </div>
           </div>

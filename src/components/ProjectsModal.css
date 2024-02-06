@@ -7,8 +7,18 @@
   transition: 1s;
   z-index: 1000;
 }
+.blackscreen{
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.701);
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 950;
+
+}
 .projectmodal {
-  position: absolute;
+  position: fixed;
   top: 50px;
   left: 10%;
   box-shadow: 5px 5px 15px black, -5px -5px 15px black;

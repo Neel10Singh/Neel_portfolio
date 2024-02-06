@@ -204,7 +204,7 @@
   height: 40px;
   width: 40px;
   border-radius: 20px;
-  border: 2px solid rgb(209, 209, 209);
+  border: 2px solid #d1d1d1;
   color: white;
   background-color: rgb(36, 39, 52);
   position: absolute;
@@ -235,6 +235,56 @@
   transform: scale(1.2);
 }
 @media (max-width: 800px) {
+  .pageface {
+    flex-direction: column;
+    height: 1000px;
+  }
+  .backanimation {
+    height: 50%;
+  }
+  .circle {
+    bottom: 30px;
+    height: 350px;
+    width: 175px;
+    margin-left: 22%;
+  }
+  .circle2 {
+    display: none;
+  }
+  .circle9 {
+    display: none;
+  }
+  .neelimg {
+    margin-left: 30%;
+  }
+  .rightfacecont {
+    top: 10%;
+  }
+  .linkedin {
+    left: 24%;
+    bottom: 57%;
+  }
+  .instagra {
+    left: 32%;
+    bottom: 67%;
+  }
+  .leetcode {
+    left: 20%;
+    bottom: 46%;
+  }
+  .codeforces {
+    left: 20%;
+    bottom: 33%;
+  }
+  .github {
+    left: 22%;
+    bottom: 22%;
+  }
+  .leftface {
+    border-bottom: 1px solid rgb(184, 176, 200);
+  }
+}
+@media (max-width: 500px) {
   .pageface {
     flex-direction: column;
     height: 1000px;

@@ -103,7 +103,7 @@ function PageFace() {
             className="Getresume"
             onClick={() => {
               window.open(
-                "https://drive.google.com/file/d/1IYHThTVf2EQiFnHkdCmyp3ZTyuM5XTbg/view?usp=sharing"
+                "https://drive.google.com/file/d/1Q7j6B83nBxA4VQFQG2TwSY-Wkd5oy7Qv/view?usp=sharing"
               );
             }}
             data-aos="fade-right"

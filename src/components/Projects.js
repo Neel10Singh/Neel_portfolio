@@ -75,6 +75,7 @@ function Projects() {
 
               return (
                 <button
+                  id={id}
                   className={pos}
                   onClick={() => {
                     setModalOpen(true);
@@ -95,7 +96,7 @@ function Projects() {
             })}
           </div>
           <p className="viewmore">Click on card to view more</p>
-          <p className="scrolltext">Swipe to scroll</p>
+          <p className="scrolltext">Swipe left/right to scroll</p>
         </div>
       </div>
 

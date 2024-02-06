@@ -8,6 +8,7 @@ import Scrolltotop from "./components/Scrolltotop";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Experience from "./components/Experience";
 
 function App({}) {
   const [loading, setLoading] = useState(true);
@@ -83,6 +84,7 @@ function App({}) {
       <Skills />
       <Scrolltotop />
       <Projects />
+      <Experience />
       <Contact />
     </div>
   );

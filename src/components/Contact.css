@@ -1,7 +1,7 @@
 .contactpage {
   position: relative;
   height: fit-content;
-  background-color: rgb(36, 39, 52);
+  background-color: rgb(42, 45, 58);
   padding-bottom: 30px;
   display: flex;
   flex-direction: column;
@@ -70,7 +70,7 @@
 }
 .clickcontacts {
   display: flex;
-  padding: 70px;
+  padding: 30px 30px 50px 30px;
   font-size: 30px;
   font-weight: 600;
   color: rgb(184, 176, 200);
@@ -94,7 +94,7 @@
   border-radius: 50%;
   margin: 0px 20px;
   border: 1px solid rgb(184, 176, 200);
-  background-color: rgb(36, 39, 51);
+  background-color: rgb(42, 45, 58);
   color: rgb(184, 176, 200);
   font-size: 20px;
   transition: 0.5s;
@@ -103,7 +103,7 @@
 }
 .contactbut:hover {
   background-color: rgb(184, 176, 200);
-  color: rgb(36, 39, 52);
+  color: rgb(42, 45, 58);
 }
 .contactform {
   display: block;
@@ -122,7 +122,7 @@
 .inputfield {
   flex: 50%;
   height: 40px;
-  background-color: rgb(36, 39, 52);
+  background-color: rgb(42, 45, 58);
   color: rgb(184, 176, 200);
   border: 2px solid rgb(184, 176, 200);
   border-radius: 10px;
@@ -136,7 +136,7 @@
   height: 40px;
   width: 100%;
   box-sizing: border-box;
-  background-color: rgb(36, 39, 52);
+  background-color: rgb(42, 45, 58);
   color: rgb(184, 176, 200);
   border: 2px solid rgb(184, 176, 200);
   border-radius: 10px;
@@ -160,14 +160,15 @@
   font-size: 20px;
   color: rgb(184, 176, 200);
   background-color: transparent;
-  border: 3px solid rgb(42, 45, 58);
+  border: 3px solid rgb(188, 188, 188);
   border-radius: 20px;
   margin-left: 50%;
   transform: translateX(-50%);
   transition: 0.5s;
 }
 .formsubmit:hover {
-  background-color: rgb(42, 45, 58);
+  border: 3px solid rgb(36,39,52);
+  background-color: rgb(36,39,52);
 }
 @media (min-width: 800px) and (max-width: 1050px) {
   .clickcontacts {

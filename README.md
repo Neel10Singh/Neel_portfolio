@@ -109,7 +109,7 @@ Project Link: [master--neel10singh.netlify.app](master--neel10singh.netlify.app)
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/Neel10Singh/Neel_portfolio.svg?style=for-the-badge
 [contributors-url]: https://github.com/Neel10Singh/Neel_portfolio/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Neel10Singh/Neel_portfolio.svg?style=for-the-badge
 [forks-url]: https://github.com/Neel10Singh/Neel_portfolio/network/members

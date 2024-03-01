@@ -83,10 +83,10 @@
   width: 40px;
   height: 40px;
   background-color: transparent;
-  border: 1px solid rgb(184, 176, 200);
+  border: none;
   border-radius: 10px;
   color: rgb(184, 176, 200);
-  background-color: rgb(42, 45, 58);
+  background-color: rgba(36, 39, 52, 0.521);
   display: none;
   z-index: 10002;
 }
@@ -100,24 +100,23 @@
   border-bottom: 2px solid rgb(184, 176, 200);
   border-top: 2px solid rgb(184, 176, 200);
   width: 30px;
-  border-radius:15px;
+  border-radius: 15px;
   margin-bottom: 5px;
   margin-top: 5px;
   margin-left: 4px;
 }
-.l2{
+.l2 {
   animation: lineanim 2s linear infinite alternate;
 }
 @keyframes lineanim {
-  from{
+  from {
     transform: scaleX(100%);
     transform-origin: left;
   }
-  to{
+  to {
     transform: scaleX(40%);
     transform-origin: right;
   }
-  
 }
 .navbar2 {
   display: none;
@@ -130,9 +129,9 @@
   height: 90%;
   left: 0;
   top: 90px;
-  background-color: rgb(36, 39, 52);
+  background-color: rgba(36, 39, 52, 0.904);
   transition: 0.7s;
-  z-index: 80;
+  z-index: 1000;
 }
 .navbar2hidden {
   right: -800px;
@@ -153,7 +152,7 @@
 .navbarline {
   display: none;
   width: 50%;
-  margin:  20px 0px 20px 0;
+  margin: 20px 0px 20px 0;
   border-bottom: 1px solid rgb(184, 176, 200);
 }
 @media (max-width: 800px) {

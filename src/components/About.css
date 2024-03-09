@@ -207,6 +207,9 @@
   .about {
     flex-direction: column;
   }
+  .aboutme {
+    height: fit-content;
+  }
   .aboutmebox {
     padding: 60px 20px;
     width: fit-content;

@@ -213,6 +213,7 @@
   .aboutmebox {
     padding: 60px 20px;
     width: fit-content;
+    max-height: fit-content;
   }
   .detsbox {
     font-size: 17px;

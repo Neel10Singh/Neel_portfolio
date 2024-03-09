@@ -71,7 +71,7 @@ function PageFace() {
           <div
             className='myname'
             data-aos='fade-right'
-            data-aos-offset='0'
+            data-aos-offset='-300'
             data-aos-delay='50'
             data-aos-duration='1000'
             data-aos-easing='ease-in-out'
@@ -87,7 +87,7 @@ function PageFace() {
           <div
             className='mydesc'
             data-aos='fade-right'
-            data-aos-offset='-100'
+            data-aos-offset='-300'
             data-aos-delay='50'
             data-aos-duration='1000'
             data-aos-easing='ease-in-out'

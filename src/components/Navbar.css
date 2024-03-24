@@ -133,7 +133,7 @@
   transition: 0.7s;
   z-index: 1000;
 }
-.xpextra {
+.expextra {
   display: inline;
 }
 .navbar2hidden {
@@ -159,7 +159,7 @@
   border-bottom: 1px solid rgb(184, 176, 200);
 }
 @media (max-width: 1200px) {
-  .xpextra {
+  .expextra {
     display: none;
   }
 }

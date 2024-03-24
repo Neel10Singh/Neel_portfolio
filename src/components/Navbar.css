@@ -133,6 +133,9 @@
   transition: 0.7s;
   z-index: 1000;
 }
+.xpextra {
+  display: inline;
+}
 .navbar2hidden {
   right: -800px;
   display: flex;
@@ -154,6 +157,11 @@
   width: 50%;
   margin: 20px 0px 20px 0;
   border-bottom: 1px solid rgb(184, 176, 200);
+}
+@media (max-width: 1200px) {
+  .xpextra {
+    display: none;
+  }
 }
 @media (max-width: 800px) {
   .navbarhamburg {

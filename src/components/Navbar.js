@@ -100,7 +100,7 @@ function Navbar() {
             onMouseLeave={() => navbuttonanimate('b6')}
             onClick={scrolltoExp}
           >
-            Experience
+            Exp<span className='expextra'>erience</span>
           </button>
         </div>
         <div className='navbarbuttondiv'>

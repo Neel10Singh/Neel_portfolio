@@ -43,6 +43,7 @@
   height: 40px;
   width: 100px;
   position: relative;
+  z-index: 10002;
 }
 .navbarbuttonback {
   opacity: 0.3;

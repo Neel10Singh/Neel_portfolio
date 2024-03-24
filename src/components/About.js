@@ -118,7 +118,7 @@ function About() {
           </div>
           <div className='hidden' ref={containerRef2}>
             LeetCode Rating:
-            <div className='detssubbox'>1814</div>
+            <div className='detssubbox'>1877(Knight)</div>
           </div>
           <div className='hidden' ref={containerRef3}>
             LeetCode Questions:

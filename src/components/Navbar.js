@@ -13,6 +13,7 @@ function Navbar() {
     if (id === 'b2') scrolltoAbout()
     if (id === 'b3') scrolltoSkills()
     if (id === 'b4') scrolltoProj()
+    if (id === 'b6') scrolltoExp()
     if (id === 'b5') scrolltoContacts()
   }
 
@@ -34,6 +35,10 @@ function Navbar() {
   const scrolltoProj = () => {
     const skillspage = document.getElementById('projpage')
     skillspage.scrollIntoView({ behavior: 'smooth' })
+  }
+  const scrolltoExp = () => {
+    const exppage = document.getElementById('exppage')
+    exppage.scrollIntoView({ behavior: 'smooth' })
   }
   const scrolltoContacts = () => {
     const skillspage = document.getElementById('contactpage')
@@ -88,6 +93,17 @@ function Navbar() {
           </button>
         </div>
         <div className='navbarbuttondiv'>
+          <img src={navbuttonback} className='navbarbuttonbackhidden' id='b6' />
+          <button
+            className='navbarbutton'
+            onMouseEnter={() => navbuttonanimate('b6')}
+            onMouseLeave={() => navbuttonanimate('b6')}
+            onClick={scrolltoExp}
+          >
+            Experience
+          </button>
+        </div>
+        <div className='navbarbuttondiv'>
           <img src={navbuttonback} className='navbarbuttonbackhidden' id='b5' />
           <button
             className='navbarbutton'
@@ -136,6 +152,13 @@ function Navbar() {
           onClick={() => navbuttonmobileclick('b4')}
         >
           Projects
+        </button>
+        <div className='navbarline' />
+        <button
+          className='navbarbutton'
+          onClick={() => navbuttonmobileclick('b6')}
+        >
+          Experience
         </button>
         <div className='navbarline' />
         <button

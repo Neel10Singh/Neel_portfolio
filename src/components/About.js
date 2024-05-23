@@ -118,11 +118,11 @@ function About() {
           </div>
           <div className='hidden' ref={containerRef2}>
             LeetCode Rating:
-            <div className='detssubbox'>1877</div>
+            <div className='detssubbox'>1922</div>
           </div>
           <div className='hidden' ref={containerRef3}>
             LeetCode Questions:
-            <div className='detssubbox'>400+</div>
+            <div className='detssubbox'>450+</div>
           </div>
           <div className='hidden' ref={containerRef4}>
             Codeforces Rating:

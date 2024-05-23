@@ -7,7 +7,7 @@
   transition: 1s;
   z-index: 1000;
 }
-.blackscreen{
+.blackscreen {
   position: fixed;
   background-color: rgba(0, 0, 0, 0.701);
   top: 0;
@@ -15,11 +15,10 @@
   width: 100vw;
   height: 100vh;
   z-index: 950;
-
 }
 .projectmodal {
   position: fixed;
-  top: 50px;
+  top: 5%;
   left: 10%;
   box-shadow: 5px 5px 15px black, -5px -5px 15px black;
   border-radius: 50px;
@@ -27,7 +26,7 @@
   z-index: 1000;
   width: 80%;
   box-sizing: border-box;
-  height: 600px;
+  height: 90%;
   overflow: hidden;
   transition: 0.7s;
 }
@@ -58,10 +57,9 @@
 }
 .projectimagephone {
   border-radius: 30px;
-  max-height: 600px;
   width: auto;
   height: 99%;
-  object-fit: contain;
+  object-fit: cover;
 }
 .descriptionmodal {
   font-size: 15px;
@@ -85,7 +83,6 @@
   color: rgb(184, 176, 200);
   text-align: center;
 }
-.closemodal,
 .openproject,
 .opencode {
   position: absolute;
@@ -93,19 +90,36 @@
   height: 50px;
   width: 100px;
   border: 2px solid rgb(42, 45, 58);
-  background-color: transparent;
-  color: rgb(184, 176, 200);
+  color: rgb(42, 45, 58);
+  background-color: rgb(184, 176, 200);
   font-family: 'Rubik', sans-serif;
   border-radius: 25px;
   transition: 0.5s;
 }
 .openproject:hover,
-.closemodal:hover,
 .opencode:hover {
   background-color: rgb(42, 45, 58);
+
+  color: rgb(184, 176, 200);
 }
 .closemodal {
-  right: 400px;
+  position: fixed;
+  z-index: 1005;
+  top: 20px;
+  right: 70px;
+  height: 50px;
+  width: 50px;
+  border: 2px solid rgb(42, 45, 58);
+  color: rgb(42, 45, 58);
+  background-color: rgb(184, 176, 200);
+  font-family: 'Rubik', sans-serif;
+  border-radius: 25px;
+  transition: 0.5s;
+  font-size: large;
+}
+.closemodal:hover {
+  background-color: rgb(42, 45, 58);
+  color: rgb(184, 176, 200);
 }
 .openproject {
   right: 200px;
@@ -151,12 +165,12 @@
     right: 20px;
   }
   .closemodal {
-    right: 105px;
+    right: 20px;
+    z-index: 1005;
   }
   .opencode {
     right: 190px;
   }
-  .closemodal,
   .openproject,
   .opencode {
     width: 80px;

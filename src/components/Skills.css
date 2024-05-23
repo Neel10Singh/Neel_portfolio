@@ -152,6 +152,14 @@
   width: 80%;
   font-size: 15px;
 }
+.angular {
+  width: 30%;
+  font-size: 15px;
+}
+.tsc {
+  width: 70%;
+  font-size: 15px;
+}
 .react {
   width: 75%;
   font-size: 15px;
@@ -196,11 +204,11 @@
   width: 50%;
   font-size: 15px;
 }
-.solidity{
+.solidity {
   width: 70%;
   font-size: 15px;
 }
-.hardhat{
+.hardhat {
   width: 60%;
   font-size: 15px;
 }

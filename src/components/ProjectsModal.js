@@ -1,26 +1,32 @@
-import React from "react";
-import "./ProjectsModal.css";
+import React from 'react'
+import './ProjectsModal.css'
 
 function ProjectsModal({ projmodal, setModalOpen, modalopen }) {
-  const { TechStack } = projmodal;
+  const { TechStack } = projmodal
 
   return (
     <>
-      <div className={modalopen ? "blackscreen" : "modalhidden"} />
-      <div className={modalopen ? "projectmodal" : "modalhidden"}>
-        <div className="modalcontent">
-          <div className="projectleft">
-            <img src={projmodal.backim} className="projectimagephone" />
+      <div className={modalopen ? 'blackscreen' : 'modalhidden'} />
+      <button
+        className={modalopen ? 'closemodal' : 'modalhidden'}
+        onClick={() => setModalOpen(false)}
+      >
+        X
+      </button>
+      <div className={modalopen ? 'projectmodal' : 'modalhidden'}>
+        <div className='modalcontent'>
+          <div className='projectleft'>
+            <img src={projmodal.backim} className='projectimagephone' />
           </div>
-          <div className="projectright">
-            <div className="projectimagediv">
-              <img src={projmodal.im} className="projectimage" />
+          <div className='projectright'>
+            <div className='projectimagediv'>
+              <img src={projmodal.im} className='projectimage' />
             </div>
-            <p className="descriptionmodal">{projmodal.desc}</p>
-            <p className="descriptionmodal">{projmodal.usage}</p>
+            <p className='descriptionmodal'>{projmodal.desc}</p>
+            <p className='descriptionmodal'>{projmodal.usage}</p>
           </div>
-          <div className="modaldesc">
-            <p style={{ fontSize: "25px", fontWeight: "600" }}>
+          <div className='modaldesc'>
+            <p style={{ fontSize: '25px', fontWeight: '600' }}>
               {projmodal.name}
             </p>
             <p>
@@ -40,21 +46,19 @@ function ProjectsModal({ projmodal, setModalOpen, modalopen }) {
                     <span>
                       {tec}, <br />
                     </span>
-                  );
+                  )
                 })}
             </p>
           </div>
-          <button className="closemodal" onClick={() => setModalOpen(false)}>
-            Close
-          </button>
+
           <button
-            className="openproject"
+            className='openproject'
             onClick={() => window.open(projmodal.link1)}
           >
             View Live
           </button>
           <button
-            className="opencode"
+            className='opencode'
             onClick={() => window.open(projmodal.link2)}
           >
             View Code
@@ -62,7 +66,7 @@ function ProjectsModal({ projmodal, setModalOpen, modalopen }) {
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default ProjectsModal;
+export default ProjectsModal

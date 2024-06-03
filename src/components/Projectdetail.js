@@ -8,6 +8,9 @@ import ourspace from '../images/ourspace.png'
 import ourspacephone from '../images/ourspacephone.png'
 import decentra from '../images/Decentra.png'
 import decentraphone from '../images/Decentraphone.png'
+import show from '../images/ss2.png'
+import showphone from '../images/ss4.jpg'
+
 export const projectdets = [
   {
     id: 0,
@@ -26,6 +29,21 @@ export const projectdets = [
   },
   {
     id: 1,
+    name: 'Showtime',
+    startdate: '20/05/2024',
+    duration: '5 days',
+    TechStack: ['Next.js', 'TailwindCSS', 'MongoDB'],
+    shortdesc: 'Entertainment library website.',
+    im: show,
+    backim: showphone,
+    desc: "In today's digital age, movie enthusiasts often struggle to manage and share their favorite films across different platforms. The need for a centralized solution that allows users to create, organize, and share movie playlists is more pertinent than ever. Our movie playlist web app addresses this gap by providing a user-friendly interface where individuals can curate their own collections, discover new movies, and share their playlists with friends or keep them private.",
+    usage:
+      'The application is built using Next.js for server-side rendering and seamless navigation, MongoDB with Mongoose for efficient data storage and retrieval, and TailwindCSS for responsive and modern UI design. User authentication and security are managed through bcrypt for hashing passwords and JWT for token-based authentication, with Next-Auth simplifying session management. ',
+    link1: 'https://showtime-self.vercel.app/',
+    link2: 'https://github.com/Neel10Singh/Showtimenew',
+  },
+  {
+    id: 2,
     name: 'Decentragram',
     startdate: '15/11/2023',
     duration: '40 days',
@@ -40,7 +58,7 @@ export const projectdets = [
     link2: 'https://github.com/Neel10Singh/Decentragram',
   },
   {
-    id: 2,
+    id: 3,
     name: 'HealYou',
     startdate: '1/04/2023',
     duration: '10 days',
@@ -56,7 +74,7 @@ export const projectdets = [
     link2: 'https://github.com/devpiyush20/healyou',
   },
   {
-    id: 3,
+    id: 4,
     name: 'OurSpace',
     startdate: '24/07/2023',
     duration: '10 days',
@@ -71,7 +89,7 @@ export const projectdets = [
     link2: 'https://github.com/Neel10Singh/codealpha-bloggingwebsite',
   },
   {
-    id: 4,
+    id: 5,
     name: 'ResMe',
     startdate: '16/07/2023',
     duration: '5 days',

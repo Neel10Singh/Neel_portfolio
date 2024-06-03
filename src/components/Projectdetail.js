@@ -36,7 +36,7 @@ export const projectdets = [
     shortdesc: 'Entertainment library website.',
     im: show,
     backim: showphone,
-    desc: "In today's digital age, movie enthusiasts often struggle to manage and share their favorite films across different platforms. The need for a centralized solution that allows users to create, organize, and share movie playlists is more pertinent than ever. Our movie playlist web app addresses this gap by providing a user-friendly interface where individuals can curate their own collections, discover new movies, and share their playlists with friends or keep them private.",
+    desc: "In today's digital age, movie enthusiasts often struggle to manage and share their favorite films across different platforms. We provide a user-friendly interface where individuals can curate their own collections, discover new movies, and share their playlists or keep them private.",
     usage:
       'The application is built using Next.js for server-side rendering and seamless navigation, MongoDB with Mongoose for efficient data storage and retrieval, and TailwindCSS for responsive and modern UI design. User authentication and security are managed through bcrypt for hashing passwords and JWT for token-based authentication, with Next-Auth simplifying session management. ',
     link1: 'https://showtime-self.vercel.app/',

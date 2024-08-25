@@ -1,8 +1,11 @@
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   background-color: rgb(42, 45, 58);
 
   /* overflow-y: hidden; */
+}
+* {
+  /* box-sizing: border-box; */
 }
 /* body,
 html {
@@ -28,7 +31,7 @@ p {
 ::-webkit-scrollbar-thumb {
   background: #000000;
 }
-.loader-box{
+.loader-box {
   background-color: rgb(42, 45, 58);
   height: 100vh;
   width: 100vw;
@@ -37,26 +40,25 @@ p {
   left: 0;
   z-index: 1000;
 }
-.loader{
+.loader {
   position: absolute;
-  top:50%;
+  top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  
+
   /* border: solid; */
   /* animation: rotateloader 3s infinite linear  forwards ; */
   z-index: 1100;
 }
 @keyframes rotateloader {
-  from{
-    transform: rotate(0deg) ;
+  from {
+    transform: rotate(0deg);
     perspective-origin: center;
     transform-origin: center;
   }
-  to{
-    transform: rotate(360deg) ;
+  to {
+    transform: rotate(360deg);
     perspective-origin: center;
     transform-origin: center;
   }
-  
 }

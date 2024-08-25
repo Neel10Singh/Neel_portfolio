@@ -4,7 +4,7 @@
   background-color: rgb(36, 39, 52);
   margin-top: 90px;
   position: relative;
-  width: 100vw;
+  width: 100%;
 }
 .backanimation {
   position: absolute;
@@ -70,9 +70,7 @@
   position: relative;
   height: 600px;
 }
-.rightface {
-  width: 30%;
-}
+
 .rightfacecont {
   position: absolute;
   left: 0%;
@@ -284,9 +282,6 @@
   .neelimg {
     left: 5%;
   }
-  .rightfacecont {
-    top: 10%;
-  }
 
   .leftface {
     border-bottom: 1px solid rgb(184, 176, 200);
@@ -437,5 +432,10 @@
   .github {
     left: 5%;
     bottom: 40%;
+  }
+  .rightfacecont {
+    top: 0%;
+    left: 5%;
+    width: 90%;
   }
 }

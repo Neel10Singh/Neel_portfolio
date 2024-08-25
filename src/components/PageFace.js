@@ -97,7 +97,8 @@ function PageFace() {
             data-aos-once="true"
             data-aos-anchor-placement="top-center"
           >
-            Front-end developer specialising in React
+            Next, React, Angular, Web3, PHP, Express, Node, SQL, MongoDB -
+            Complete Package
           </div>
           <button
             className="Getresume"

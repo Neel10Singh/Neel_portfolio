@@ -122,13 +122,14 @@
 .inputfield {
   flex: 50%;
   height: 40px;
+  width: 40%;
   background-color: rgb(42, 45, 58);
   color: rgb(184, 176, 200);
   border: 2px solid rgb(184, 176, 200);
   border-radius: 10px;
   padding: 4px 10px;
   font-size: 25px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 .inputfield2,
 .inputfield3 {
@@ -143,7 +144,7 @@
   padding: 4px 10px;
   font-size: 25px;
   margin-bottom: 5px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 .inputfield3 {
   height: 160px;
@@ -167,8 +168,8 @@
   transition: 0.5s;
 }
 .formsubmit:hover {
-  border: 3px solid rgb(36,39,52);
-  background-color: rgb(36,39,52);
+  border: 3px solid rgb(36, 39, 52);
+  background-color: rgb(36, 39, 52);
 }
 @media (min-width: 800px) and (max-width: 1050px) {
   .clickcontacts {
@@ -196,5 +197,8 @@
     height: 40px;
     width: 40px;
     margin: 0px 5px;
+  }
+  .inputfield {
+    width: auto;
   }
 }

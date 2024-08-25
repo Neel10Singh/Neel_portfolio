@@ -4,6 +4,7 @@
   background-color: rgb(36, 39, 52);
   margin-top: 90px;
   position: relative;
+  width: 100vw;
 }
 .backanimation {
   position: absolute;
@@ -15,7 +16,7 @@
 }
 .neelimg {
   position: absolute;
-  margin-left: 40%;
+  left: 30%;
   height: 90%;
   margin-top: 40px;
   bottom: 0;
@@ -69,11 +70,15 @@
   position: relative;
   height: 600px;
 }
+.rightface {
+  width: 30%;
+}
 .rightfacecont {
   position: absolute;
-  left: 10%;
+  left: 0%;
   top: 20%;
   display: flex;
+  width: 80%;
   flex-direction: column;
   row-gap: 20px;
   justify-content: start;
@@ -96,7 +101,7 @@
   background-color: transparent;
   color: rgb(184, 176, 200);
   border: 2px solid rgb(42, 45, 58);
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   transition: all;
   z-index: 10;
 }
@@ -156,8 +161,6 @@
   color: white;
   background-color: rgb(36, 39, 52);
   position: absolute;
-  left: 29%;
-  bottom: 48%;
   transition: 0.3s;
   z-index: 60;
 }
@@ -169,8 +172,6 @@
   color: white;
   background-color: rgb(36, 39, 52);
   position: absolute;
-  left: 34%;
-  bottom: 59%;
   transition: 0.3s;
   z-index: 60;
 }
@@ -182,8 +183,6 @@
   color: white;
   background-color: rgb(36, 39, 52);
   position: absolute;
-  left: 28%;
-  bottom: 37%;
   transition: 0.3s;
   z-index: 60;
 }
@@ -195,8 +194,6 @@
   color: white;
   background-color: rgb(36, 39, 52);
   position: absolute;
-  left: 30%;
-  bottom: 26%;
   transition: 0.3s;
   z-index: 60;
 }
@@ -208,8 +205,6 @@
   color: white;
   background-color: rgb(36, 39, 52);
   position: absolute;
-  left: 35%;
-  bottom: 17%;
   transition: 0.3s;
   z-index: 60;
 }
@@ -255,33 +250,15 @@
     display: none;
   }
   .neelimg {
-    margin-left: 30%;
+    left: 20%;
   }
   .rightfacecont {
     top: 10%;
   }
-  .linkedin {
-    left: 24%;
-    bottom: 57%;
-  }
-  .instagra {
-    left: 32%;
-    bottom: 67%;
-  }
-  .leetcode {
-    left: 20%;
-    bottom: 46%;
-  }
-  .codeforces {
-    left: 20%;
-    bottom: 33%;
-  }
-  .github {
-    left: 22%;
-    bottom: 22%;
-  }
+
   .leftface {
     border-bottom: 1px solid rgb(184, 176, 200);
+    width: 100%;
   }
 }
 @media (max-width: 500px) {
@@ -305,32 +282,160 @@
     display: none;
   }
   .neelimg {
-    margin-left: 25%;
+    left: 5%;
   }
   .rightfacecont {
     top: 10%;
   }
-  .linkedin {
-    left: 20%;
-    bottom: 57%;
-  }
-  .instagra {
-    left: 31%;
-    bottom: 65%;
-  }
-  .leetcode {
-    left: 13%;
-    bottom: 46%;
-  }
-  .codeforces {
-    left: 12%;
-    bottom: 33%;
-  }
-  .github {
-    left: 15%;
-    bottom: 22%;
-  }
+
   .leftface {
     border-bottom: 1px solid rgb(184, 176, 200);
+  }
+}
+@media (max-width: 1220px) {
+  .rightfacecont {
+    left: 20%;
+    width: 70%;
+    transform: scale(0.7);
+    top: 10%;
+  }
+}
+
+@media (max-width: 1700px) {
+  .linkedin {
+    left: 34%;
+    bottom: 61%;
+  }
+  .instagra {
+    left: 42%;
+    bottom: 68%;
+  }
+  .leetcode {
+    left: 29%;
+    bottom: 50%;
+  }
+  .codeforces {
+    left: 28%;
+    bottom: 39%;
+  }
+  .github {
+    left: 29%;
+    bottom: 28%;
+  }
+}
+@media (min-width: 1700px) {
+  .linkedin {
+    left: 33%;
+    bottom: 61%;
+  }
+  .instagra {
+    left: 38%;
+    bottom: 68%;
+  }
+  .leetcode {
+    left: 29%;
+    bottom: 50%;
+  }
+  .codeforces {
+    left: 28%;
+    bottom: 39%;
+  }
+  .github {
+    left: 29%;
+    bottom: 28%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .linkedin {
+    left: 36%;
+    bottom: 62%;
+  }
+  .instagra {
+    left: 44%;
+    bottom: 69%;
+  }
+  .leetcode {
+    left: 30%;
+    bottom: 52%;
+  }
+  .codeforces {
+    left: 27%;
+    bottom: 40%;
+  }
+  .github {
+    left: 29%;
+    bottom: 28%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .linkedin {
+    left: 38%;
+    bottom: 63%;
+  }
+  .instagra {
+    left: 49%;
+    bottom: 69%;
+  }
+  .leetcode {
+    left: 30%;
+    bottom: 53%;
+  }
+  .codeforces {
+    left: 27%;
+    bottom: 40%;
+  }
+  .github {
+    left: 29%;
+    bottom: 28%;
+  }
+}
+
+@media (max-width: 800px) {
+  .linkedin {
+    left: 26%;
+    bottom: 61%;
+  }
+  .instagra {
+    left: 32%;
+    bottom: 68%;
+  }
+  .leetcode {
+    left: 21%;
+    bottom: 52%;
+  }
+  .codeforces {
+    left: 19%;
+    bottom: 42%;
+  }
+  .github {
+    left: 19%;
+    bottom: 32%;
+  }
+}
+@media (max-width: 500px) {
+  .circle {
+    display: none;
+  }
+  .linkedin {
+    left: 5%;
+    bottom: 80%;
+  }
+  .instagra {
+    left: 5%;
+    bottom: 70%;
+  }
+  .leetcode {
+    left: 5%;
+    bottom: 60%;
+  }
+  .codeforces {
+    left: 5%;
+    bottom: 50%;
+  }
+  .github {
+    left: 5%;
+    bottom: 40%;
   }
 }
